@@ -1,13 +1,13 @@
 process foo {
-    machineType 'mem1_ssd1_x2'
     /
     echo Hello
+    sleep 30
     /
 }
 
-process beta {
-    machineType 'mem2_ssd1_v2_x2'
+process bar {
     /
     echo World
+    sleep 120
     /
 }
